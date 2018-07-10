@@ -23,9 +23,9 @@ pddsdk is an open source api for pingduoduo.
         'sort_type': 0,
         'type': 'pdd.ddk.goods.search'}
 
-    request = Client(client_id, client_secret)
+    r = Client(client_id, client_secret).call(params)
 
-    print(request.call(params))
+    print(r)
 
 
 .. code:: python

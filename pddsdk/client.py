@@ -52,5 +52,5 @@ if __name__ == '__main__':
     params = {
         'sort_type': 0,
         'type': 'pdd.ddk.goods.search'}
-    request = Client(client_id, client_secret)
-    print(request.call(params))
+    r = Client(client_id, client_secret).call(params)
+    print(r)
