@@ -1,4 +1,4 @@
-from client import Client
+from pddsdk.client import Client
 
 
 class DdkGoodsPromotionUrlGenerate(Client):

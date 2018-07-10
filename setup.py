@@ -7,7 +7,7 @@ with io.open('README.rst', 'rt', encoding='utf8') as f:
 
 setup(
     name='pddsdk',
-    version='0.1.13',
+    version='0.1.15',
     description='an open source api for pingduoduo',
     long_description=readme,
     url='https://github.com/linzhiming0826/pddsdk',
